@@ -2,5 +2,21 @@
   "image": "ghcr.io/rails/devcontainer/images/ruby:3.3.2",
   "features": {
     "ghcr.io/rails/devcontainer/features/activestorage": {}
+      },
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Shopify.ruby-extensions-pack",
+        "testdouble.vscode-standard-ruby",
+        "manuelpuyol.erb-linter",
+        "Shopify.ruby-lsp",
+        "aki77.rails-db-schema",
+        "miguel-savignano.ruby-symbols",
+        "sibiraj-s.vscode-scss-formatter",
+        "Thadeu.vscode-run-rspec-file",
+        "Cronos87.yaml-symbols"
+      ]
+    }
   }
 }
